@@ -484,8 +484,14 @@ video {
 #row-form {
   margin: 0;
   padding: 0;
-  padding-inline: 21vw;
+  padding-inline: 25vmax;
   margin-bottom: 2em;
+}
+
+@media (max-width: 600px) {
+  #row-form {
+    padding-inline: 6vmax;
+  }
 }
 
 #backgroundNumber05 h1 {
