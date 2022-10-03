@@ -1,0 +1,46 @@
+
+.FooterContainer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 10vh;
+  background: #fff;
+  color: #000;
+  border-top: solid 2px #000;
+  padding-top: 0.4em;
+}
+
+#icon_col {
+  margin-left: 3%;
+}
+
+#icon_col button {
+  border: none;
+  background: none;
+}
+
+#icon_col button:hover {
+  box-shadow: none;
+}
+
+#icon_col img{
+  width: 1.5em;
+  margin-top: -0.5em;
+}
+
+@media (max-width: 600px) {
+  #icon_col img{
+    width: 1.1em;
+    margin-top: -1em;
+  }
+}
+
+#logo_col {
+  text-align: center;
+}
+
+#company_col {
+  text-align: end;
+  margin-right: 3%;
+  font-size: 2vmin;
+}

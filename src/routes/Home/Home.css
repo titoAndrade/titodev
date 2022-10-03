@@ -1,0 +1,543 @@
+
+#homeContainer {
+  margin: 0;
+  padding: 0;
+}
+
+
+video {
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  top: 55%;
+  height: 100vh;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#row-logo {
+  height: 90vh;
+  width: 100%;
+  margin: 0;
+  margin-top: 10vh;
+  padding-block: 10em;
+  padding-bottom: 12em;
+}
+
+#logo {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+
+#logo img {
+  width: 75vmin;
+}
+
+/* 01. ABOUT */
+
+#row-about {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  height: 100%;
+  padding-block: 12em;
+  width: 100%;
+}
+
+#backgroundNumber {
+  position: absolute;
+  top: 115%;
+  left: 2%;
+  width: 80%;
+  font-family: 'syne';
+  font-size: 3.2vmax;
+  font-weight: 800;
+  color: #a3a3a3;
+  z-index: 2;
+  overflow: hidden;
+}
+
+#backgroundText {
+  position: absolute;
+  top: 120%;
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.08);
+  font-size: 3vmax;
+  font-family: 'roboto';
+  letter-spacing: 1.5vmax;
+  text-align: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+#col-photo {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 25em;
+  z-index: 2;
+}
+
+#col-photo img {
+  height: 25em;
+}
+
+.txt {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 25em;
+}
+
+#col-aboutText {
+  padding: 1.5em;
+  height: 25em;
+  width: 20em;
+  display: flexbox;
+  align-content: center;
+  text-align: center;
+  border: solid 2px #000;
+  background: #fff;
+  z-index: 2;
+}
+
+#col-aboutText h1 {
+  font-family: 'syne';
+  font-weight: 800;
+  font-size: 4.4em;
+  margin-bottom: 0;
+}
+
+#col-aboutText h2 {
+  font-family: 'syne';
+  font-weight: 800;
+  font-size: 1.9em;
+  margin-top: -0.7em;
+}
+
+#col-aboutText p {
+  font-family: 'roboto';
+  font-size: 12px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+#col-aboutText button {
+  background: #fff;
+  font-family: 'syne';
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 0.5em;
+}
+
+#col-aboutText:hover {
+  box-shadow: 4px 4px rgba(0, 0, 0, 1);
+}
+
+#col-aboutText button:hover {
+  box-shadow: 2px 2px rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 600px) {
+
+  #col-photo {
+    justify-content: center;
+    margin-block-end: 3em;
+  }
+
+  .txt {
+    justify-content: center;
+  }
+
+  #backgroundText {
+    font-size: 35px;
+    letter-spacing: 12px;
+    top: 110%;
+  }
+}
+
+/* 02. WORK */
+
+#row-work, #row-services {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  width: 100%;
+}
+
+#row-services {
+  padding-block: 6em;
+  padding-bottom: 8em;
+}
+
+#title-row {
+  margin-top: 1.5em;
+  margin-bottom: 2.5em;
+}
+
+#backgroundNumber02 h1 {
+  display: inline;
+  margin-left: 4%;
+  margin-bottom: 1em;
+  font-family: 'syne';
+  font-size: 3.2vmax;
+  font-weight: 800;
+  -webkit-text-stroke: 2px #DA0037;
+  color: #fff;
+}
+
+#workTitle p {
+  text-align: center;
+  font-family: 'syne';
+  font-size: 2em;
+  font-weight: 800;
+  padding-top: 0.5em;
+  margin-left: -3.5em;
+}
+
+#row-work-cards .col-2 {
+  border: solid #000 2px;
+  width: 15em;
+  height: 22em;
+  margin-inline: 10px;
+  margin-bottom: 1em;
+  padding: 1.2em;
+  display: flexbox;
+  align-content: center;
+  text-align: center;
+  font-family: 'roboto';
+}
+
+#row-work-cards .col-2:hover, button:hover{
+  box-shadow: 4px 4px rgba(0, 0, 0, 1)
+}
+
+#row-work-cards button:hover{
+  box-shadow: 2px 2px rgba(0, 0, 0, 1)
+}
+
+#row-work-cards img {
+  height: 6.5em;
+  margin-top: 1.4em;
+}
+
+#row-work-cards h1 {
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+
+#row-work-cards p {
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+  height: 6em;
+  margin-block: 1.5em;
+}
+
+#row-work-cards button {
+  width: 6em;
+  height: 2.2em;
+  background: #fff;
+  font-size: 0.7em;
+  font-family: 'syne';
+  font-weight: 700;
+}
+
+/* 03. SKILLS */
+
+#row-skills {
+  padding-block: 10em;
+}
+
+#row-sticker {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.8%;
+}
+
+#row-sticker img {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+#row-backgroundSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  background: #fff;
+  padding: 0.6em;
+}
+
+#row-backgroundSkills .col-4 {
+  margin: 0;
+  margin-inline: 0.4em;
+  border: #000 2px solid;
+  height: 16.5em;
+  width: 13.1em;
+  padding: 1em;
+}
+
+#row-backgroundSkills .col-4:hover {
+  box-shadow: 4px 4px rgba(0, 0, 0, 1);
+}
+
+#row-backgroundSkills h3 {
+  font-family: 'syne';
+  font-size: 0.85em;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  margin-block: 0.6em;
+  margin-left: 0.5em;
+  margin-top: 1em;
+}
+
+#row-backgroundSkills .col-3 {
+  margin-right: 0.5em;
+  margin-block: 0.5em;
+}
+
+#row-backgroundSkills img {
+  height: 1.6em;
+}
+
+#router-icon {
+  margin-left: -0.3em;
+  width: 2.2em;
+}
+
+#tools-card h3 {
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+
+#tools-card .col-3 {
+  margin-inline: 0.8em;
+  margin-bottom: 1.4em;
+}
+
+#tools-card img {
+  height: 1.8em;
+}
+
+#html img {
+  height: 1.85em;
+}
+
+#css img {
+  height: 1.95em;
+}
+
+#react img{
+  height: 1.9em;
+}
+
+#tailwind img {
+  height: 1.9em;
+}
+
+#github img {
+  height: 2em;
+}
+
+#uxui img{
+  height: 2em;
+}
+
+@media (max-width: 600px) {
+
+  #row-backgroundSkills .col-4 {
+    width: 15em;
+    margin-block: 0.4em; 
+  }
+
+  #row-work-cards .col-2,
+  #row-services-cards .col-2 {
+    margin-block: 0.4em;
+  }
+
+  #workTitle p {
+    font-size: 4.2vw;
+    margin-left: -1.5em;
+  }
+
+}
+
+#backgroundNumber03 h1{
+  margin-left: 2%;
+  font-family: 'syne';
+  font-size: 3.2vmax;
+  font-weight: 800;
+  color: #DA0037;
+  margin-top: -1.5em;
+}
+
+#row-work {
+  padding-block: 6em;
+}
+
+
+/* 04. SERVICES */
+
+#backgroundNumber04 h1{
+  margin-left: 2%;
+  font-family: 'syne';
+  font-size: 3.2vmax;
+  font-weight: 800;
+  color: #a3a3a3;
+  /* margin-top: -1.5em; */
+}
+
+#row-services-cards .col-2 {
+  border: solid #000 2px;
+  width: 15em;
+  height: 22em;
+  margin-inline: 10px;
+  padding: 1.2em;
+  align-content: center;
+  text-align: center;
+  font-family: 'roboto';
+}
+
+#row-services-cards .col-2:hover {
+  box-shadow: 4px 4px rgba(0, 0, 0, 1)
+}
+
+#row-services-cards button:hover{
+  box-shadow: 2px 2px rgba(0, 0, 0, 1)
+}
+
+#row-services-cards h1 {
+  font-weight: 700;
+  font-size: 1.9em;
+  margin-top: 0.5em;
+  font-family: 'syne';
+  font-weight: 800;
+}
+
+#development {
+  font-weight: 700;
+  font-size: 1.9em;
+  margin-top: -0.5em;
+  text-align: left;
+  font-family: 'syne';
+  font-weight: 800;
+}
+
+#row-services-cards p {
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+  height: 6em;
+  margin-top: 1.5em;
+}
+
+#row-services-cards button {
+  width: 5em;
+  height: 2.2em;
+  background: #fff;
+  font-size: 0.7em;
+  font-family: 'syne';
+  font-weight: 700;
+  margin-top: 7em;
+}
+
+#btn-up  button{
+  margin-top: 1em;
+  display: none;
+}
+
+#card-2 p {
+  margin-top: 4em;
+}
+
+#card-2 button {
+  margin-top: 7em;
+}
+
+#widfy {
+  font-family: 'syne';
+  font-size: 3.2vmax;
+  font-weight: 800;
+  -webkit-text-stroke: 2px #DA0037;
+  color: #DA0037;
+}
+
+/* 05. CONTACT */
+
+#row-contact {
+  margin: 0;
+  width: 100%;
+  padding-block: 6em;
+  background: #fff;
+}
+
+#row-form {
+  margin: 0;
+  padding: 0;
+  padding-inline: 21vw;
+  margin-bottom: 2em;
+}
+
+#backgroundNumber05 h1 {
+  margin-left: 4%;
+  font-family: 'syne';
+  font-size: 3.2vmax;
+  font-weight: 800;
+  -webkit-text-stroke: 2px #DA0037;
+  color: #fff;
+}
+
+#formTitle p {
+  text-align: center;
+  font-family: 'syne';
+  font-size: 3vmax;
+  font-weight: 800;
+  margin-top: -1.2em;
+  padding-top: 0.5em;
+  margin-left: -3em;
+}
+
+#form {
+  border: solid 2px #000;
+  padding-block-start: 2em;
+  padding-inline: 2vw;
+  z-index: 2;
+  background: #fff;
+}
+
+#form .inputs {
+  margin-block-end: 1em;
+  border-radius: 0;
+  border: solid 2px #000;
+  width: 100%;
+  resize: none;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+#form textarea {
+  height: 8em;
+}
+
+#form button {
+  width: 6em;
+  margin-bottom: 2em;
+  background: #fff;
+  font-size: 0.8em;
+  font-family: 'syne';
+  font-weight: 700;
+}
+
+#form:hover {
+  box-shadow: 4px 4px rgba(0, 0, 0, 1);
+}
