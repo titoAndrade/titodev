@@ -45,8 +45,11 @@ video {
   padding: 0;
   background: #fff;
   height: 100%;
-  padding-block: 12em;
+  padding-block: 20em;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #backgroundNumber {
@@ -67,7 +70,7 @@ video {
   top: 120%;
   z-index: 1;
   color: rgba(0, 0, 0, 0.08);
-  font-size: 3vmax;
+  font-size: 3.2vmax;
   font-family: 'roboto';
   letter-spacing: 1.5vmax;
   text-align: center;
@@ -81,11 +84,12 @@ video {
   justify-content: flex-end;
   align-items: center;
   height: 25em;
-  z-index: 2;
+  z-index: 2
 }
 
 #col-photo img {
   height: 25em;
+  margin-top: 10em;
 }
 
 .txt {
@@ -99,13 +103,14 @@ video {
 #col-aboutText {
   padding: 1.5em;
   height: 25em;
-  width: 20em;
+  width: 34em;
   display: flexbox;
   align-content: center;
   text-align: center;
   border: solid 2px #000;
   background: #fff;
   z-index: 2;
+  margin-top: 10em;
 }
 
 #col-aboutText h1 {
@@ -168,10 +173,11 @@ video {
 
 #row-work, #row-services {
   margin: 0;
-  padding: 0;
+  padding: 5em;
   background: #fff;
   width: 100%;
 }
+
 
 #row-services {
   padding-block: 6em;
@@ -179,8 +185,7 @@ video {
 }
 
 #title-row {
-  margin-top: 1.5em;
-  margin-bottom: 2.5em;
+  margin-bottom: 6em;
 }
 
 #backgroundNumber02 h1 {
@@ -204,19 +209,22 @@ video {
 }
 
 #row-work-cards .col-2 {
-  border: solid #000 2px;
-  width: 15em;
+  /*border: solid #000 2px;*/
+  width: 32em;
   height: 22em;
-  margin-inline: 10px;
-  margin-bottom: 1em;
-  padding: 1.2em;
+  margin-inline: 0.2em;
+  margin-bottom: 4em;
   display: flexbox;
   align-content: center;
   text-align: center;
   font-family: 'roboto';
 }
 
-#row-work-cards .col-2:hover, button:hover{
+/*#row-work-cards .col-2:hover, button:hover{
+  box-shadow: 4px 4px rgba(0, 0, 0, 1)
+}*/
+
+#row-work-cards img:hover{
   box-shadow: 4px 4px rgba(0, 0, 0, 1)
 }
 
@@ -225,14 +233,20 @@ video {
 }
 
 #row-work-cards img {
-  height: 6.5em;
-  margin-top: 1.4em;
+  width: 28em;
+  border: solid #000 2px;
 }
 
 #row-work-cards h1 {
   font-weight: 700;
-  font-size: 1.3em;
-  margin-top: 1em;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+#row-work-cards h2 {
+  font-size: 0.85em;
+  color: #909090;
+  margin-top: -0.5em;
 }
 
 #row-work-cards p {
@@ -243,10 +257,11 @@ video {
 }
 
 #row-work-cards button {
+  margin-top: 0.5em;
   width: 6em;
   height: 2.2em;
   background: #fff;
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-family: 'syne';
   font-weight: 700;
 }
@@ -254,7 +269,7 @@ video {
 /* 03. SKILLS */
 
 #row-skills {
-  padding-block: 10em;
+  padding-block: 14em;
 }
 
 #row-sticker {
@@ -395,16 +410,16 @@ video {
   font-size: 3.2vmax;
   font-weight: 800;
   color: #a3a3a3;
-  /* margin-top: -1.5em; */
 }
 
 #row-services-cards .col-2 {
   border: solid #000 2px;
-  width: 15em;
-  height: 22em;
-  margin-inline: 10px;
+  width: 28em;
+  height: 21em;
+  margin-inline: 0.8em;
+  margin-block: 0.8em;
   padding: 1.2em;
-  align-content: center;
+  align-content: top;
   text-align: center;
   font-family: 'roboto';
 }
@@ -419,26 +434,19 @@ video {
 
 #row-services-cards h1 {
   font-weight: 700;
-  font-size: 1.9em;
+  font-size: 1.3em;
   margin-top: 0.5em;
-  font-family: 'syne';
-  font-weight: 800;
-}
-
-#development {
-  font-weight: 700;
-  font-size: 1.9em;
-  margin-top: -0.5em;
-  text-align: left;
   font-family: 'syne';
   font-weight: 800;
 }
 
 #row-services-cards p {
   font-size: 0.7em;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
+  padding-inline: 2em;
   height: 6em;
   margin-top: 1.5em;
+  text-align: justify;
 }
 
 #row-services-cards button {
@@ -448,7 +456,7 @@ video {
   font-size: 0.7em;
   font-family: 'syne';
   font-weight: 700;
-  margin-top: 7em;
+  margin-top: 8em;
 }
 
 #btn-up  button{
@@ -457,7 +465,7 @@ video {
 }
 
 #card-2 p {
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 #card-2 button {
@@ -465,11 +473,25 @@ video {
 }
 
 #widfy {
+  text-align: center;
   font-family: 'syne';
-  font-size: 3.2vmax;
+  font-size: 3em;
   font-weight: 800;
+  padding-top: 0.5em;
+  margin-left: -3.5em;
+  color: #000;
+}
+
+#widfy-2 {
+  text-align: center;
+  font-family: 'syne';
+  font-size: 2em;
+  font-weight: 800;
+  margin-left: -5em;
+  margin-top: -0.9em;
+  margin-bottom: -0.5em;
   -webkit-text-stroke: 2px #DA0037;
-  color: #DA0037;
+  color: rgba(0, 0, 0, 0.0)
 }
 
 /* 05. CONTACT */
@@ -477,15 +499,16 @@ video {
 #row-contact {
   margin: 0;
   width: 100%;
-  padding-block: 6em;
+  padding-top: 10em;
+  padding-bottom: 6em;
   background: #fff;
 }
 
 #row-form {
   margin: 0;
   padding: 0;
-  padding-inline: 25vmax;
-  margin-bottom: 2em;
+  padding-inline: 28vmax;
+  margin-bottom: 4em;
 }
 
 @media (max-width: 600px) {
@@ -503,7 +526,7 @@ video {
   color: #fff;
 }
 
-#formTitle p {
+#formTitle {
   text-align: center;
   font-family: 'syne';
   font-size: 3vmax;

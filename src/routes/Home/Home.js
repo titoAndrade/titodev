@@ -6,10 +6,13 @@ import './Home.css'
 import video from './media/backgroundVideoEdited1.mp4'
 import logotype from './media/titodev-logotype.svg'
 import photo from './media/photo.png'
-import searchkeer from './media/searchkeer.svg'
-import mailer4all from './media/mailer4all.svg'
-import infoip from './media/infoip.svg'
-import ubsv from './media/ubsv.svg'
+import urbanriot from './media/urbanriot.png'
+import jda from './media/jda.png'
+import smartvice from './media/smartvice.png'
+import searchkeer from './media/Searchkeer-screenshot.png'
+import mailer4all from './media/Mailer4All-screenshot.png'
+import infoip from './media/InfoIP-screenshot.png'
+import ubsv from './media/UBSV-screenshot.png'
 import sticker from './media/skillsSticker.svg'
 
 import html from './media/icons/icons8-html-5.svg'
@@ -80,6 +83,9 @@ export default function Home() {
           My goal is to create websites and web applications that respond to current trends in terms of design, performance and best practices. 
         </p>
 
+        <div className="col"></div>
+        <div className="col"></div>
+
         <div className='col' id='col-photo'>
           <img src={photo} alt="profile" />
         </div>
@@ -89,12 +95,16 @@ export default function Home() {
             <h1>TITO</h1>
             <h2>ANDRADE</h2>
             <p>
-              I am a self-taught frontend developer with focus on responsive design and Ux/Ui.
-              My goal is to create websites and web applications that respond to current trends in terms of design, performance and best practices.
+              Frontend Developer focused on Shopify, with experience creating and customizing stores using Liquid, integrating applications, configuring payments and shipping, and connecting with apps & external platforms.
+              I'm complete self-taught coder with focus on responsive design and Ux/Ui. My goal is to create websites and web applications that respond to current trends in terms of design, performance and best practices.
+              
             </p>
-            <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>more +</button></a>
+            <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Chat</button></a>
           </div>
         </div>
+
+        <div className="col"></div>
+        <div className="col"></div>
 
       </div>
 
@@ -111,11 +121,38 @@ export default function Home() {
         </div>
       
         <div className="row justify-content-center align-items-center" id='row-work-cards'>
+
+        <div className='col-2' id='card-1'>
+            <img src={urbanriot} alt="projectPic" />
+            <h1>UrbanRiot</h1>
+            <h2>Liquid - Shopify</h2>
+            <a href='https://urbanriot-store.myshopify.com/' target='_blank' rel='noreferrer'>
+              <button>Visit</button>
+            </a>
+          </div>
+
+          <div className='col-2' id='card-1'>
+            <img src={jda} alt="projectPic" />
+            <h1>Jardines de Agua</h1>
+            <h2>Liquid - Shopify</h2>
+            <a href='https://jardines-de-agua.myshopify.com/' target='_blank' rel='noreferrer'>
+              <button>Visit</button>
+            </a>
+          </div>
+
+          <div className='col-2' id='card-1'>
+            <img src={smartvice} alt="projectPic" />
+            <h1>SmartVice</h1>
+            <h2>Liquid - Shopify</h2>
+            <a href='https://smartvice-store.myshopify.com/' target='_blank' rel='noreferrer'>
+              <button>Visit</button>
+            </a>
+          </div>
     
           <div className='col-2' id='card-1'>
             <img src={searchkeer} alt="projectPic" />
             <h1>SearchKeer</h1>
-            <p>This is a Web App that allows you to find quality photos from the unsplash API for free</p>
+            <h2>React</h2>
             <a href='https://searchkeer.netlify.app/' target='_blank' rel='noreferrer'>
               <button>Visit</button>
             </a>
@@ -124,7 +161,7 @@ export default function Home() {
           <div className='col-2' id='card-1'>
             <img src={mailer4all} alt="projectPic" />
             <h1>mailer4all</h1>
-            <p>An app that allows you to send emails from a web platform without the need to log in</p>
+            <h2>React</h2>
             <a href='https://mailer4all.netlify.app/' target='_blank' rel='noreferrer'>
               <button>Visit</button>
             </a>
@@ -133,7 +170,7 @@ export default function Home() {
           <div className='col-2' id='card-1'>
             <img src={infoip} alt="projectPic" />
             <h1>InfoIp</h1>
-            <p>This App allows you to check suspicious ip addresses and information about it</p>
+            <h2>Javascript</h2>
             <a href='https://info-ip.netlify.app/' target='_blank' rel='noreferrer'>
               <button>Visit</button>
             </a>
@@ -142,7 +179,7 @@ export default function Home() {
           <div className='col-2' id='card-1'>
             <img src={ubsv} alt="projectPic" />
             <h1>Farah | ubsv</h1>
-            <p>web site developed to promote the brand of cheese boards, bakery and wines </p>
+            <h2>React</h2>
             <a href='https://farah-ubsv.netlify.app/' target='_blank' rel='noreferrer'>
               <button>Visit</button>
             </a>
@@ -294,34 +331,58 @@ export default function Home() {
           <div className='col-1' id='backgroundNumber04'>
             <h1>04.</h1>
           </div>
-          <div className='col' id='workTitle'>
-            <p id='widfy'>what I do</p>
+          <div className='col'>
+            <p id='widfy'>Services</p>
+            <p id='widfy-2'>This is what I do</p>
           </div>
         </div>
       
         <div className="row justify-content-center align-items-center" id='row-services-cards'>
     
           <div className='col-2' id='card-2'>
-            <h1 id='design'>Design</h1>
+            <h1 id='design'>Shopify Store Development</h1>
             <p>
-              From a basic design using bootstrap or tailwind components to a professional design by my partners graphic designers, you can find the service that best fits your needs.
-            </p>
-            <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Get</button></a>
-          </div>
-
-          <div className='col-2' id='card-1'>
-            <h1>Develop</h1>
-            <h2 id='development'>ment</h2>
-            <p>            
-              Scalable websites using react in its development, use of the most popular libraries on the market with fast loading, implementation of effective forms and attention to SEO
+            Bring your store to life with a customized Shopify site. From structure to aesthetic details, I design user-friendly and visually engaging stores. My experience in Shopify's Liquid templating language allows me to build tailored, scalable solutions that align with your brand and audience. Let’s create an experience that converts.
             </p>
             <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Get</button></a>
           </div>
 
           <div className='col-2' id='card-2'>
-            <h1>Hosting</h1>
+            <h1>Liquid Code Customization</h1>
+            <p>            
+            Unlock the full potential of Shopify with expert Liquid coding. I specialize in creating dynamic templates, integrating custom features, and optimizing code to enhance functionality without compromising speed or user experience. Whether you need advanced conditional displays, custom sections, or interactive elements, I ensure that every feature is seamlessly integrated.
+            </p>
+            <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Get</button></a>
+          </div>
+
+          <div className='col-2' id='card-2'>
+            <h1>Shopify App Integration & Optimization</h1>
             <p>
-              Deployment service, domain, hosting in one of the best platforms on the market adjusted to your traffic needs, I also offer the maintenance service of your website
+            Optimize your store with the best Shopify apps, fully customized to meet your needs. I can identify, install, and configure the right apps for your store and integrate them with custom code when necessary to maximize your store’s capabilities. This includes optimizing for performance, ensuring compatibility, and creating a smooth user experience across devices.
+            </p>
+            <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Get</button></a>
+          </div>
+
+          <div className='col-2' id='card-2'>
+            <h1>Responsive Design for All Devices</h1>
+            <p>
+            Ensure your Shopify store looks and works perfectly on any device. I specialize in responsive, mobile-first design to help capture users on every platform. By blending aesthetic design with seamless functionality, I make sure that your customers enjoy a unified experience, whether on desktop, tablet, or mobile.
+            </p>
+            <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Get</button></a>
+          </div>
+
+          <div className='col-2' id='card-2'>
+            <h1>SEO & Performance Optimization</h1>
+            <p>
+            Drive more traffic and improve your store’s performance. I provide on-page SEO enhancements, optimize loading speeds, and refine the backend to meet modern SEO standards, all of which enhance your visibility and usability. With optimized code, your store can rank higher and retain more users, improving conversions.
+            </p>
+            <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Get</button></a>
+          </div>
+
+          <div className='col-2' id='card-2'>
+            <h1>Ongoing Support & Store Maintenance</h1>
+            <p>
+            Keep your store running smoothly with continuous support. From regular updates to resolving issues, I offer maintenance services to ensure your Shopify store remains stable, secure, and up-to-date. My support is flexible, adapting to your store’s growth and evolving needs, allowing you to focus on scaling your business.
             </p>
             <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Get</button></a>
           </div>

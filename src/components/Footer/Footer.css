@@ -8,6 +8,7 @@
   color: #000;
   border-top: solid 2px #000;
   padding-top: 0.4em;
+  margin-top: 4em;
 }
 
 #icon_col {
@@ -42,5 +43,5 @@
 #company_col {
   text-align: end;
   margin-right: 3%;
-  font-size: 2vmin;
+  font-size: 1.8vmin;
 }
