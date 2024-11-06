@@ -97,7 +97,7 @@ export default function Home() {
             <p>
               Frontend Developer focused on Shopify, with experience creating and customizing stores using Liquid, integrating applications, configuring payments and shipping, and connecting with apps & external platforms.
               I'm complete self-taught coder with focus on responsive design and Ux/Ui. My goal is to create websites and web applications that respond to current trends in terms of design, performance and best practices.
-              
+
             </p>
             <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Chat </button></a>
           </div>
@@ -338,7 +338,7 @@ export default function Home() {
         </div>
       
         <div className="row justify-content-center align-items-center" id='row-services-cards'>
-    
+
           <div className='col-2' id='card-2'>
             <h1 id='design'>Shopify Store Development</h1>
             <p>
