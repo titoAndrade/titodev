@@ -153,12 +153,6 @@ video {
 
 @media (max-width: 810px) {
 
-  #row-about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   #col-photo {
     margin-right: 25%;
   }
@@ -173,8 +167,6 @@ video {
     width: 90vmin;
     height: fit-content;
   }
-
-
 
   .txt {
     justify-content: center;
@@ -197,7 +189,6 @@ video {
   background: #fff;
   width: 100%;
 }
-
 
 #row-services {
   padding-block: 6em;
@@ -279,6 +270,31 @@ video {
   font-size: 0.8em;
   font-family: 'syne';
   font-weight: 700;
+}
+
+@media (max-width: 810px) {
+
+  #backgroundNumber02 h1 {
+    margin-left: -6vmax;
+    font-size: 5vmin;
+  }
+
+  #title-row .col {
+    margin-left: 25%;
+    font-size: 3vmin;
+  }
+
+  #row-work-cards .col-2 {
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 10%;
+    font-size: 3vmin;
+  }
+
+  #row-work-cards img {
+    width: 100%;
+  }
+
 }
 
 /* 03. SKILLS */
@@ -394,11 +410,6 @@ video {
   #row-work-cards .col-2,
   #row-services-cards .col-2 {
     margin-block: 0.4em;
-  }
-
-  #workTitle p {
-    font-size: 4.2vw;
-    margin-left: -1.5em;
   }
 
 }
