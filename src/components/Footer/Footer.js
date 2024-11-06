@@ -1,6 +1,5 @@
 import linkedin from './icons8-linkedin-circled.svg'
 import github from './icons8-github-circled.svg'
-import twitter from './icons8-twitter-circled.svg'
 import logotype from './logotype-footer.svg'
 
 import './Footer.css'
@@ -19,11 +18,6 @@ export default function Footer() {
           <a href="https://github.com/titoAndrade" rel="noreferrer" target="_blank">
             <button>
               <img src={github} alt="Github icon" />
-            </button>
-          </a>
-          <a href="https://twitter.com/titodev_" rel="noreferrer" target="_blank">
-            <button>
-              <img src={twitter} alt="Twitter icon" id='mail_icon'/>
             </button>
           </a>
 

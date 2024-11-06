@@ -151,12 +151,30 @@ video {
   box-shadow: 2px 2px rgba(0, 0, 0, 1);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 810px) {
+
+  #row-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   #col-photo {
-    justify-content: center;
-    margin-block-end: 3em;
+    margin-right: 25%;
   }
+
+  #col-photo img {
+    height: 90vmin;
+    margin-bottom: 38vmin;
+  }
+
+  #col-aboutText {
+    margin-left: 10%;
+    width: 90vmin;
+    height: fit-content;
+  }
+
+
 
   .txt {
     justify-content: center;
@@ -165,9 +183,11 @@ video {
   #backgroundText {
     font-size: 35px;
     letter-spacing: 12px;
-    top: 110%;
+    top: 120%;
   }
+
 }
+
 
 /* 02. WORK */
 
@@ -209,7 +229,6 @@ video {
 }
 
 #row-work-cards .col-2 {
-  /*border: solid #000 2px;*/
   width: 32em;
   height: 22em;
   margin-inline: 0.2em;
@@ -219,10 +238,6 @@ video {
   text-align: center;
   font-family: 'roboto';
 }
-
-/*#row-work-cards .col-2:hover, button:hover{
-  box-shadow: 4px 4px rgba(0, 0, 0, 1)
-}*/
 
 #row-work-cards img:hover{
   box-shadow: 4px 4px rgba(0, 0, 0, 1)

@@ -99,7 +99,7 @@ export default function Home() {
               I'm complete self-taught coder with focus on responsive design and Ux/Ui. My goal is to create websites and web applications that respond to current trends in terms of design, performance and best practices.
               
             </p>
-            <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Chat</button></a>
+            <a href="https://wa.me/message/MRST6DWHTKRMO1" rel="noreferrer" target="_blank"><button>Chat </button></a>
           </div>
         </div>
 
