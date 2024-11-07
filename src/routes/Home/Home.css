@@ -291,6 +291,11 @@ video {
     font-size: 4vmin;
   }
 
+  #row-work-cards {
+    /* padding-inline: 0; */
+    /* margin-inline: 0; */
+  }
+
   #row-work-cards img {
     margin-left: -30%;
     width: 85vmin;
@@ -320,7 +325,6 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 50%;
   background: #fff;
   padding: 0.6em;
@@ -330,7 +334,7 @@ video {
   margin: 0;
   margin-inline: 0.4em;
   border: #000 2px solid;
-  height: 16.5em;
+  height: 28em;
   width: 15.3vmax;
   padding: 1em;
 }
@@ -344,9 +348,9 @@ video {
   font-size: 0.85em;
   letter-spacing: 0.3em;
   font-weight: 700;
-  margin-block: 0.6em;
   margin-left: 0.5em;
   margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 #row-backgroundSkills .col-3 {
@@ -355,7 +359,8 @@ video {
 }
 
 #row-backgroundSkills img {
-  height: 1.6em;
+  width: 1.5em;
+  margin-right: 0.4em;
 }
 
 #router-icon {
@@ -366,6 +371,7 @@ video {
 #tools-card h3 {
   text-align: center;
   margin-bottom: 0.7em;
+  margin-bottom: 3em;
 }
 
 #tools-card .col-3 {
@@ -374,43 +380,28 @@ video {
 }
 
 #tools-card img {
-  height: 1.8em;
-}
-
-#html img {
-  height: 1.85em;
-}
-
-#css img {
-  height: 1.95em;
-}
-
-#react img{
-  height: 1.9em;
-}
-
-#tailwind img {
-  height: 1.9em;
-}
-
-#github img {
-  height: 2em;
-}
-
-#uxui img{
-  height: 2em;
+  height: 1.em;
 }
 
 @media (max-width: 600px) {
 
   #row-backgroundSkills .col-4 {
     width: 15em;
-    margin-block: 0.4em; 
+    margin-block: 0.4em;
+    height: fit-content;
   }
 
   #row-work-cards .col-2,
   #row-services-cards .col-2 {
     margin-block: 0.4em;
+  }
+
+  #row-backgroundSkills {
+    width: 70%;
+  }
+
+  #row-sticker img {
+    width: 70%;
   }
 
 }

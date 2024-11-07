@@ -208,50 +208,16 @@ export default function Home() {
             <div className="col-4">
 
               {/* LANGUAGES */}
-              <h3 style={{ textAlign: 'center' }}>Languages</h3>
-              <div className="row justify-content-center align-items-center">
-                <div className="col-3" id='html'>
-                  <img src={html} alt="" title='Html5'/>
-                </div>
+              <h3 style={{ textAlign: 'center' }}>Languages & Frameworks</h3>
 
-                <div className="col-3" id='css'>
-                  <img src={css} alt="" title='Css3'/>
-                </div>
-
-                <div className="col-3">
-                  <img src={javascript} alt="" title='Javascript'/>
-                </div>
-              </div>
-
-              {/* FRAMEWORK & LIBRARIES*/}
-              <h3 style={{ textAlign: 'center' }}>Frameworks & Libraries</h3>
-              <div className="row justify-content-center align-items-center">
-                <div className="col-5" id='react' style={{ marginTop: '0.5em', marginLeft: '0.5em', textAlign: 'center' }}>
-                  <img src={react} alt="" title='React'/>
-                </div>
-
-                <div className="col-5">
-                  <img src={router} alt="" id='router-icon' title='React-Router'/>
-                </div>
-
-                <div className="col-3">
-                  <img src={jquery} alt="" title='jQuery' style={{ display: 'none' }}/>
-                </div>
-              </div>
-              
-              <div className="row justify-content-center align-items-center">
-                <div className="col-5">
-                  <img src={bootstrap} alt="" title='Bootstrap 5' style={{ marginLeft: '1.5em', textAlign: 'center' }}/>
-                </div>
-
-                <div className="col-5" id='tailwind'>
-                  <img src={tailwind} alt="" id='router-icon' title='TailwindCss' style={{ marginLeft: '0em' }}/>
-                </div>
-
-                <div className="col-3">
-                  <img src={sass} alt="" title='Sass' style={{ display: 'none' }}/>
-                </div>
-              </div>
+              <p> <img src={html} alt="" title='Html5'/> Html5</p>
+              <p> <img src={css} alt="" title='Css3'/> Css3</p>
+              <p> <img src={javascript} alt="" title='Javascript'/> Javascript </p>
+              <p> <img src={react} alt="" title='React'/> React </p>
+              <p> <img src={router} alt="" id='router-icon' title='React-Router' style={{ marginLeft: '0em' }}/> react-router </p>
+              <p> <img src={bootstrap} alt="" title='Bootstrap 5'/> Bootstrap </p>
+              <p> <img src={tailwind} alt="" id='router-icon' title='TailwindCss' style={{ marginLeft: '0em' }}/> TailwindCss </p>
+              <p> <img src={sass} alt="" title='Sass'/> Sass </p>
 
             </div>
 
@@ -260,63 +226,25 @@ export default function Home() {
               
               <h3>Tools</h3>
 
-              <div className="row justify-content-center align-items-center">
-                <div className="col-3">
-                  <img src={vscode} alt="" title='VsCode'/>
-                </div>
-                <div className="col-3">
-                  <img src={git} alt="" title='Git'/>
-                </div>
-              </div>
-
-              <div className="row justify-content-center align-items-center">
-                <div className="col-3" id='github'>
-                  <img src={github} alt="" title='GitHub'/>
-                </div>
-                <div className="col-3">
-                  <img src={figma} alt="" title='Figma'/>
-                </div>
-              </div>
-
-              <div className="row justify-content-center align-items-center">
-                <div className="col-3">
-                  <img src={ps} alt="" title='Adobe Photoshop'/>
-                </div>
-                <div className="col-3">
-                  <img src={ai} alt="" title='Adobe Ilustrator'/>
-                </div>
-              </div>
+              <p> <img src={vscode} alt="" title='VsCode'/> VsCode</p>
+              <p> <img src={git} alt="" title='Git'/> Git </p>
+              <p> <img src={github} alt="" title='GitHub'/> GitHub </p>
+              <p> <img src={figma} alt="" title='Figma'/> Figma </p>
+              <p> <img src={ps} alt="" title='Adobe Photoshop'/> Adobe Photoshop </p>
+              <p> <img src={ai} alt="" title='Adobe Ilustrator'/> Adobe Illustrator </p>
 
             </div>
 
             {/* I DO CARD */}
             <div className="col-4" id='tools-card'>
 
-            <h3>I do</h3>
+              <h3>I do</h3>
 
-            <div className="row justify-content-center align-items-center">
-              <div className="col-3">
-                <img src={design} alt="" title='Design'/>
-              </div>
-              <div className="col-3">
-                <img src={mockup} alt="" title='MockUp'/>
-              </div>
-            </div>
-
-            <div className="row justify-content-center align-items-center">
-              <div className="col-3">
-                <img src={responsive} alt="" title='Responsive'/>
-              </div>
-              <div className="col-3" id='uxui'>
-                <img src={uxui} alt="" title='UX/UI'/>
-              </div>
-            </div>
-
-            <div className="row justify-content-center align-items-center">
-              <div className="col-3">
-                <img src={deploy} alt="" title='Deployment & Hosting'/>
-              </div>
-            </div>
+              <p> <img src={design} alt="" title='Design'/> Design </p>
+              <p> <img src={mockup} alt="" title='MockUp'/> MockUp </p>
+              <p> <img src={responsive} alt="" title='Responsive'/> Responsive </p>
+              <p> <img src={uxui} alt="" title='UX/UI'/> UX/UI </p>
+              <p> <img src={deploy} alt="" title='Deployment & Hosting'/> Deployment & Hosting </p>
 
             </div>
             
