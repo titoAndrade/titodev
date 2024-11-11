@@ -384,6 +384,7 @@ video {
 
 .col-4 img:hover {
   transform: scale(150%);
+  transition-duration: 500ms;
 }
 
 @media (max-width: 600px) {
@@ -446,7 +447,10 @@ video {
 }
 
 #row-services-cards .col-2:hover {
-  box-shadow: 4px 4px rgba(0, 0, 0, 1)
+  box-shadow: 4px 4px rgba(0, 0, 0, 1);
+  background-color: #DA0037;
+  color: #fff;
+  transition-duration: 500ms;
 }
 
 #row-services-cards button:hover{
