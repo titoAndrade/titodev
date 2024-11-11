@@ -359,13 +359,8 @@ video {
 }
 
 #row-backgroundSkills img {
-  width: 1.5em;
+  width: 1.7em;
   margin-right: 0.4em;
-}
-
-#router-icon {
-  margin-left: -0.3em;
-  width: 2.2em;
 }
 
 #tools-card h3 {
@@ -380,7 +375,15 @@ video {
 }
 
 #tools-card img {
-  height: 1.em;
+  height: 1.7em;
+}
+
+#tools-card img:hover {
+  transform: scale(150%);
+}
+
+.col-4 img:hover {
+  transform: scale(150%);
 }
 
 @media (max-width: 600px) {

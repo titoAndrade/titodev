@@ -15,30 +15,29 @@ import infoip from './media/InfoIP-screenshot.png'
 import ubsv from './media/UBSV-screenshot.png'
 import sticker from './media/skillsSticker.svg'
 
-import html from './media/icons/icons8-html-5.svg'
-import css from './media/icons/icons8-css3.svg'
-import javascript from './media/icons/icons8-javascript-logo.svg'
+import html from './media/icons/1-html5-144.png'
+import css from './media/icons/2-css3-144.png'
+import javascript from './media/icons/3-javascript-144.png'
+import react from './media/icons/4-react-js-144.png'
+import liquid from './media/icons/4.1-liquid.png'
+import bootstrap from './media/icons/5-bootstrap-144.png'
+import tailwind from './media/icons/6-tailwindcss-144.png'
 
-import react from './media/icons/icons8-react.svg'
-import router from './media/icons/react-router.svg'
-import jquery from './media/icons/icons8-jquery.svg'
+import vscode from './media/icons/7-VSCode-144.png'
+import shopify from './media/icons/7.1-shopify-144.png'
+import git from './media/icons/8-git-144.png'
+import github from './media/icons/9-github-144.png'
+import figma from './media/icons/10-figma-144.png'
+import ps from './media/icons/11-adobe-photoshop-144.png'
+import ai from './media/icons/12-adobe-illustrator-144.png'
 
-import bootstrap from './media/icons/icons8-bootstrap.svg'
-import tailwind from './media/icons/icons8-tailwind-css.svg'
-import sass from './media/icons/sass.svg'
-
-import vscode from './media/icons/icons8-visual-studio.svg'
-import git from './media/icons/icons8-git.svg'
-import github from './media/icons/icons8-github.svg'
-import figma from './media/icons/icons8-figma.svg'
-import ps from './media/icons/icons8-adobe-photoshop.svg'
-import ai from './media/icons/icons8-adobe-illustrator.svg'
-
-import design from './media/icons/icons8-windows-10-personalization-50.png'
-import mockup from './media/icons/icons8-mock-up-66.png'
-import responsive from './media/icons/responsive.svg'
-import uxui from './media/icons/icons8-ux-design-66.png'
-import deploy from './media/icons/icons8-netlify.png'
+import payment from './media/icons/13-payment-96.png'
+import storeTheme from './media/icons/14-store-theme-100.png'
+import thirdparty from './media/icons/15-3rd-party-connection-64.png'
+import domain from './media/icons/16-domain-100.png'
+import product from './media/icons/17-product-listing-100.png'
+import responsive from './media/icons/18-responsive-64.png'
+import design from './media/icons/19-Design-64.png'
 
 
 export default function Home() {
@@ -214,10 +213,9 @@ export default function Home() {
               <p> <img src={css} alt="" title='Css3'/> Css3</p>
               <p> <img src={javascript} alt="" title='Javascript'/> Javascript </p>
               <p> <img src={react} alt="" title='React'/> React </p>
-              <p> <img src={router} alt="" id='router-icon' title='React-Router' style={{ marginLeft: '0em' }}/> react-router </p>
+              <p> <img src={liquid} alt="" id='router-icon' title='Liquid' style={{ marginLeft: '0em' }}/> Liquid</p>
               <p> <img src={bootstrap} alt="" title='Bootstrap 5'/> Bootstrap </p>
               <p> <img src={tailwind} alt="" id='router-icon' title='TailwindCss' style={{ marginLeft: '0em' }}/> TailwindCss </p>
-              <p> <img src={sass} alt="" title='Sass'/> Sass </p>
 
             </div>
 
@@ -227,6 +225,7 @@ export default function Home() {
               <h3>Tools</h3>
 
               <p> <img src={vscode} alt="" title='VsCode'/> VsCode</p>
+              <p> <img src={shopify} alt="" title='Shopify'/> Shopify Partners </p>
               <p> <img src={git} alt="" title='Git'/> Git </p>
               <p> <img src={github} alt="" title='GitHub'/> GitHub </p>
               <p> <img src={figma} alt="" title='Figma'/> Figma </p>
@@ -238,13 +237,15 @@ export default function Home() {
             {/* I DO CARD */}
             <div className="col-4" id='tools-card'>
 
-              <h3>I do</h3>
+              <h3> Solutions </h3>
 
-              <p> <img src={design} alt="" title='Design'/> Design </p>
-              <p> <img src={mockup} alt="" title='MockUp'/> MockUp </p>
-              <p> <img src={responsive} alt="" title='Responsive'/> Responsive </p>
-              <p> <img src={uxui} alt="" title='UX/UI'/> UX/UI </p>
-              <p> <img src={deploy} alt="" title='Deployment & Hosting'/> Deployment & Hosting </p>
+              <p> <img src={payment} alt="" title='Payment Gateway Integrations'/> Payment Gateways </p>
+              <p> <img src={storeTheme} alt="" title='Shopify Theme Customization'/> Shopify Themes </p>
+              <p> <img src={thirdparty} alt="" title='Third-Party App Integrations'/> Third-Party Apps </p>
+              <p> <img src={domain} alt="" title='Domain Acquisition and Configuration'/> Domain Configuration </p>
+              <p> <img src={product} alt="" title='Product listing'/> Product listing </p>
+              <p> <img src={responsive} alt="" title='Responsive Design Implementation'/> Responsive Design </p>
+              <p> <img src={design} alt="" title='UX/UI Design'/> UX/UI Design </p>
 
             </div>
             
