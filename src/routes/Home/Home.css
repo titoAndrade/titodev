@@ -145,6 +145,10 @@ video {
 
 #col-aboutText:hover {
   box-shadow: 4px 4px rgba(0, 0, 0, 1);
+  transition-duration: 500ms;
+  background-color: #DA0037;
+  color: #fff;
+
 }
 
 #col-aboutText button:hover {
